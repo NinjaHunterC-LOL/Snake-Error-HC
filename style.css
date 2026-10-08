@@ -151,3 +151,44 @@ body {
 .difficulty-content button:hover {
     background-color: #45a049;
 }
+.tutorial-modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-content {
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tutorial-content h2 {
+    color: #00E5FF;
+    margin-bottom: 20px;
+}
+
+.tutorial-content p {
+    margin: 12px 0;
+}
+
+.tutorial-content button,
+#tutorialButton {
+    background-color: #00E5FF;
+    color: #1A0B2E;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
