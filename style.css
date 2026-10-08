@@ -89,6 +89,9 @@ body {
     max-width: 300px;
     text-align: center;
     border-radius: 10px;
+    color: #00E5FF;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .game-over-content h2 {
