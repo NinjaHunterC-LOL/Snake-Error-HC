@@ -43,15 +43,15 @@ body {
 }
 
 .play-board .food {
-    background-color: #ff003d;
+    background-color: #FFD700;
 }
 
 .play-board .head {
-    background-color: #B8C6DC;
+    background-color: #6D28D9;
 }
 
 .play-board .body {
-    background-color: #4CAF50; /* Added color for body segments */
+    background-color: #00FFFF; /* Added color for body segments */
 }
 
 /* Game Over Modal Styles */
