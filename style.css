@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    background-color: #193447;
+    background-color: #00E5FF;
 }
 
 .game-details {
