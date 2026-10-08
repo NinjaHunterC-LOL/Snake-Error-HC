@@ -44,14 +44,17 @@ body {
 
 .play-board .food {
     background-color: #FFD700;
+    border-radius: 50%;
 }
 
 .play-board .head {
     background-color: #6D28D9;
+    border-radius: 8px;
 }
 
 .play-board .body {
-    background-color: #00FFFF; /* Added color for body segments */
+    background-color: #00FFFF;/* Added color for body segments */
+    border-radius: 8px;
 }
 
 /* Game Over Modal Styles */
