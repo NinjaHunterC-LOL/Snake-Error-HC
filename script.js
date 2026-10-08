@@ -149,6 +149,17 @@ const initGame = () => {
     // Update the play board with the new positions
     playBoard.innerHTML = htmlMarkup;
 }
+const tutorialButton = document.getElementById("tutorialButton");
+const tutorialModal = document.getElementById("tutorialModal");
+const closeTutorial = document.getElementById("closeTutorial");
+
+tutorialButton.addEventListener("click", () => {
+    tutorialModal.style.display = "flex";
+});
+
+closeTutorial.addEventListener("click", () => {
+    tutorialModal.style.display = "none";
+});
 
 // Show the difficulty selection modal on page load
 document.getElementById("difficultyModal").style.display = "flex";
