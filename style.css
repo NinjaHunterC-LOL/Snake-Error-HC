@@ -94,8 +94,8 @@ body {
 .game-over-content button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #67E8F9;
+    color: purple;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -122,7 +122,7 @@ body {
 }
 
 .difficulty-content {
-    background-color: #fefefe;
+    background-color: #333333;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -141,8 +141,8 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     margin: 5px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #67E8F9;
+    color: purple;
     border: none;
     border-radius: 5px;
     cursor: pointer;
