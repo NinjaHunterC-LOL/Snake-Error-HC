@@ -75,6 +75,9 @@ const startGame = (difficulty) => {
         case 'hard':
             gameSpeed = 50; // Faster speed for hard
             break;
+        case 'cooked?':
+            gameSpeed = 10; // Faster speed for hard
+            break;
     }
 
     // Hide the difficulty modal
