@@ -49,12 +49,10 @@ body {
 
 .play-board .head {
     background-color: #6D28D9;
-    transition: all 0.05s linear;
 }
 
 .play-board .body {
     background-color: #00FFFF;/* Added color for body segments */
-    transition: all 0.05s linear;
 }
 
 /* Game Over Modal Styles */
@@ -201,8 +199,8 @@ body {
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: #212837;
-    color: white;
+    background-color: #00FFFF;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
