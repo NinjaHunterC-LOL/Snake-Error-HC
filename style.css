@@ -198,8 +198,11 @@ body {
 
 .tutorial-content button,
 #tutorialButton {
-    background-color: #00E5FF;
-    color: #1A0B2E;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #212837;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
