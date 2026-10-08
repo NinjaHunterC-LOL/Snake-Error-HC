@@ -67,13 +67,13 @@ const restartGame = () => {
 const startGame = (difficulty) => {
     switch (difficulty) {
         case 'easy':
-            gameSpeed = 200; // Slower speed for easy
+            gameSpeed = 150; // Slower speed for easy
             break;
         case 'medium':
-            gameSpeed = 125; // Medium speed
+            gameSpeed = 75; // Medium speed
             break;
         case 'hard':
-            gameSpeed = 75; // Faster speed for hard
+            gameSpeed = 25; // Faster speed for hard
             break;
     }
 
