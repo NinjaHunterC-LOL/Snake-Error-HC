@@ -37,8 +37,16 @@ const changeDirection = (e) => {
 const gameOver = () => {
     clearInterval(gameInterval);
     GameOver = true;
-    document.getElementById("finalScore").textContent = score;
-    document.getElementById("gameOverModal").style.display = "flex";
+      document.getElementById("finalScore").textContent = score;
+
+    const modal = document.getElementById("gameOverModal");
+
+    modal.style.display = "flex";
+
+    // Start fade-in
+    setTimeout(() => {
+        modal.classList.add("show");
+    }, 50);
 }
 
 // Function to restart the game
